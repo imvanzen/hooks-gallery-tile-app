@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# Gallery Tiles App
+This project was created after my attendance in the job interview for the position of react developer.
+The task consisted of two goals
+- the first task was to create a tiled gallery with varied tile sizes.
+- the second task was to count tiles' wages with differed for each tile based on size. So the big counted as 4, the wide and high counted as 2, and the smallest counted as 1
+The main objective was to use tools to build in react in the most efficient way. This is my solution for these tasks.
+
+Project is available live right here [https://hooks-gallery-tile-app.vercel.app/](https://hooks-gallery-tile-app.vercel.app/)
+
+## More about source code
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
