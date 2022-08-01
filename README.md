@@ -6,6 +6,7 @@ The task consisted of two goals
 The main objective was to use tools to build in react in the most efficient way. This is my solution for these tasks.
 
 Project is available live right here [https://hooks-gallery-tile-app.vercel.app/](https://hooks-gallery-tile-app.vercel.app/)
+Here is the link to the original sandbox (it may be unavailable after some period) [https://codesandbox.io/s/react-live-2-0-gallery-forked-lqdlud](https://codesandbox.io/s/react-live-2-0-gallery-forked-lqdlud)
 
 ## More about source code
 
