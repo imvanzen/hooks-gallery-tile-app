@@ -1,8 +1,25 @@
 import React, { ReactElement } from 'react'
+import Gallery, {
+    Big,
+    Tile,
+    High,
+    Wide
+} from './Gallery'
 
 const App = (): ReactElement => {
     return (
-        <div></div>
+        <div>
+            <Gallery>
+                <Big />
+                <Tile />
+                <Tile />
+                <High />
+                <Big />
+                <Wide />
+                <Tile />
+                <Tile />
+            </Gallery>
+        </div>
     )
 }
 

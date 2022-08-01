@@ -1,0 +1,36 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 1em;
+    grid-auto-flow: dense;
+
+    .tile {
+        margin: 0;
+        min-width: 200px;
+        min-height: 200px;
+        background-color: #a7bed3;
+    }
+
+    //  big powinien zajmować powiechnię 4 kafelek (tile), a wide i high odpowiednio 2 kafelek horyzontalnie i pionowo.
+    .big {
+        background-color: #ffcaaf;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .wide {
+        background-color: #e1fff4;
+        grid-column: span 2;
+    }
+
+    .high {
+        background-color: #f2e8ce;
+        grid-row: span 2;
+    }
+}
